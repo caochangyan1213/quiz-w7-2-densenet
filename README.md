@@ -22,7 +22,11 @@ https://gitee.com/ai100/quiz-w7-code.git
 
 
 在tinymind上新建一个模型，模型设置参考如下模型：
-https://www.tinymind.com/ai100/quiz-w7-1/settings
+
+https://www.tinymind.com/ai100/quiz-w7-1
+
+复制模型后可以看到模型的全部参数。
+
 模型参数的解释：
 
 - dataset_name quiz  # 数据集的名称，这里使用我们为本次作业专门做的quiz数据集
@@ -74,7 +78,10 @@ densenet论文参考 https://arxiv.org/abs/1608.06993
 
 
 在tinymind上新建一个模型，模型设置参考如下模型：
-https://www.tinymind.com/ai100/quiz-w7-2-densenet/settings
+
+https://www.tinymind.com/ai100/quiz-w7-2-densenet/
+
+
 模型参数的解释同1，不同的地方：
 
 - checkpoint_path # 因为没有预训练的模型，这里不使用这个参数
