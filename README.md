@@ -130,6 +130,8 @@ python3 eval_image_classifier.py --dataset_name=quiz --dataset_dir=/path/to/data
 python3 train_eval_image_classifier.py --dataset_name=quiz --dataset_dir=/path/to/data --model_name=densenet --checkpoint_exclude_scopes=InceptionV4/Logits,InceptionV4/AuxLogits/Aux_logits --train_dir=/path/to/log/train_ckpt --learning_rate=0.1 --dataset_split_name=validation --eval_dir=/path/to/eval_den --max_num_batches=128
 ```
 
+## cpu训练
+本地没有显卡的情况下，使用上述命令进行训练会导致错误。只使用CPU进行训练的话，需要在训练命令或者统一脚本上添加**--clone_on_cpu=True**参数。tinymind上则需要新建一个**clone_on_cpu**的**bool**类型参数并设置为**True**
 
 # 以下内容为slim官方介绍
 ----
