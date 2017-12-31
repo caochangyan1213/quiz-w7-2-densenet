@@ -52,7 +52,7 @@ https://www.tinymind.com/ai100/quiz-w7-1
 2017-12-1 23:03:04.327097: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[0.494873047]
 ```
 
-经过10个以上epoch的训练（约4～6个小时）的训练，Top1（Accuracy）应不低于80%， Top5（Recall）应不低于90%。这两个指标将会作为作业及格的标准。
+经过5个以上epoch的训练（TinyMind上6个小时左右）的训练，Top1（Accuracy）应不低于60%， Top5（Recall）应不低于70%。这两个指标将会作为作业及格的标准。
 >这里使用的数据和模型及相关参数，已经过课程相关人员评估。
 >epoch计算方式：
 >epoch = step * batch_size / count_all_train_pics
