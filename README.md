@@ -83,7 +83,7 @@ densenet论文参考 https://arxiv.org/abs/1608.06993
 
 在tinymind上新建一个模型，模型设置参考如下模型：
 
-https://www.tinymind.com/ai100/quiz-w7-2-densenet/
+https://www.tinymind.com/ai100/quiz-w7-2-densenet
 
 
 模型参数的解释同1，不同的地方：
