@@ -48,13 +48,22 @@ https://www.tinymind.com/ai100/quiz-w7-1
 鼓励参与课程的学员尝试不同的参数组合以体验不同的参数对训练准确率和收敛速度的影响。
 
 ### 结果评估
+学员需要提供运行log的截图和文档描述
+
 在tinymind运行log的输出中，可以看到如下内容：
 ```sh
 2017-12-1 23:03:04.327009: I tensorflow/core/kernels/logging_ops.cc:79] eval/Accuracy[0.252197266]
 2017-12-1 23:03:04.327097: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[0.494873047]
 ```
 
-经过5个以上epoch的训练（TinyMind上6个小时左右）的训练，Top1（Accuracy）应不低于60%， Top5（Recall）应不低于70%。这两个指标将会作为作业及格的标准。
+经过5个以上epoch的训练（TinyMind上6个小时左右）的训练，Top1（Accuracy）应不低于60%， Top5（Recall）应不低于70%。这两个指标将会作为作业及格60分的标准。
+
+准确率达到Top1（Accuracy）不低于80%， Top5（Recall）不低于90%为90分。
+
+文档描述中需提供对训练流程的描述，心得体会等，内容，10分。
+
+**作业评判准确率要求必须在作业提供的数据集上得到，非作业提供的数据集得到的准确率不做考虑**
+
 >这里使用的数据和模型及相关参数，已经过课程相关人员评估。
 >epoch计算方式：
 >epoch = step * batch_size / count_all_train_pics
@@ -96,7 +105,11 @@ https://www.tinymind.com/ai100/quiz-w7-2-densenet
 鼓励参与课程的学员尝试不同的参数组合以体验不同的参数对训练准确率和收敛速度的影响。
 
 ### 结果评估
-densenet的网络，效果要略好于inceptionv4。考虑到实现的不同，而且没有预训练模型，这里不对准确率做要求。只要训练运行成功并有准确率输出即可认为及格。
+densenet的网络，效果要略好于inceptionv4。考虑到实现的不同，而且没有预训练模型，这里不对准确率做要求。只要训练运行成功并有准确率输出即可认为及格60分。
+
+提供对densenet实现过程的描述：
+对growth的理解 20分
+对稠密链接的理解 20分
 
 
 # 参考内容
