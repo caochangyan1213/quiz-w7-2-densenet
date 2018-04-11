@@ -7,6 +7,9 @@ https://edu.csdn.net/topic/ai115
 
 学员自己实现一个densenet的网络，并插入到slim框架中进行训练。
 
+tinymind 使用说明：https://gitee.com/ai100/quiz-w7-doc
+
+
 ### 数据集
 本数据集拥有200个分类，每个分类300张图片，共计6W张图片，其中5W张作为训练集，1W张图片作为验证集。图片已经预打包为tfrecord格式并上传到tinymind上。地址如下：
 https://www.tinymind.com/ai100/datasets/quiz-w7
